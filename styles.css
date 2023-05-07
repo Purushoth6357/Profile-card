@@ -9,8 +9,10 @@ html {
 }
 
 body {
-    background-color: rgba(144, 209, 240, 0.432);
-    overflow: hidden;
+  background: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+  background-position: right 52vw bottom 35vh, left 48vw top 52vh;
+  background-repeat: no-repeat, no-repeat;
+  background-color: hsl(185deg, 75%, 39%);
 }
 
 .back_ground_top,
